@@ -16,6 +16,10 @@ type Pool struct {
 	threads map[string]*threadInfo
 }
 
+func Test(a, b int) int {
+	return a / b
+}
+
 func NewThreadPool() *Pool {
 	return &Pool{threads: make(map[string]*threadInfo)}
 }
