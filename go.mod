@@ -1,4 +1,4 @@
-module go-thread
+module github.com/yiqing1996/go-thread
 
 go 1.23
 
